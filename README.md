@@ -29,10 +29,10 @@ Boyer-Moore search shows the best results on both test texts.
 Also, Boyer-Moore algorithm depends less from searched string length that KMP and Rabin-Karp. 
 Results shows that search time for 5 char string is bigger that for 16 char, caht can be explained by multiple occurance of 5 char string. 
 
-Text 1:
-[text1](task3/images/search_1.png)
+Text 1 results:
+![text1](task3/images/search_1.png)
 
-Text 2:
-[text2](task3/images/search_2.png)
+Text 2 results:
+![text2](task3/images/search_2.png)
 
 
