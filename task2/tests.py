@@ -13,6 +13,6 @@ assert binary_search(sorted_array, 8.0) == (3, 8.2)
 
 # Check out of range conditions
 assert binary_search(sorted_array, 0) == (3, 1)
-assert binary_search(sorted_array, 11) == (3, None)
+assert binary_search(sorted_array, 11) == (3, 10.0)
 
 print("Passed")

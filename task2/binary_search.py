@@ -14,8 +14,8 @@ def binary_search(array, target):
         else:
             return iterations, array[mid]
 
-    # If the target is not found, return the upper bound
-    upper_bound = array[left] if left < len(array) else None
+    # If the target is not found, return the last element which must be a biggest
+    upper_bound = array[left] if left < len(array) else array[-1::][0]
     return (iterations, upper_bound)
 
 
